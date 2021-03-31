@@ -1,0 +1,20 @@
+body {
+    background-color: royalblue;
+    
+}
+
+main {
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#day, #hour, #minute, #second {
+    padding: 10px;
+}
