@@ -4,15 +4,17 @@ body {
 }
 
 main {
-    margin-top: 20%;
-    margin-left: 30%;
-    margin-right: 30%;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
-article {
+.countdown {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     background-color: rgba(0, 0, 0, 0.7);
+    font-weight: bolder;
+    color: tan;
 }
 
 #day, #hour, #minute, #second {
