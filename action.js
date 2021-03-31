@@ -1,5 +1,5 @@
 
-        let deadline = new Date("August 9, 2022 11:59:59").getTime()
+        let deadline = new Date("August 9, 2022").getTime()
         let timer = setInterval(() => {
             let now = new Date().getTime()
             let difference = deadline - now
